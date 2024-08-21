@@ -35,7 +35,7 @@ public class XssHttpServletRequestWrapper extends HttpServletRequestWrapper {
     /**
      * html过滤
      */
-    private final static HTMLFilter htmlFilter = new HTMLFilter();
+    private final static HtmlFilter htmlFilter = new HtmlFilter();
 
     public XssHttpServletRequestWrapper(HttpServletRequest request) {
         super(request);
